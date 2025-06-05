@@ -99,6 +99,28 @@ class Linkedlist:
             count += 1
             current = current.next
 
+    def insert_after_value(self, value, data):
+        current = self.head
+        count = 0
+        while current:
+            if str(current.data) == str(value):
+                self.InsertValuesat(data, count + 1)
+                break
+            count += 1
+            current = current.next
+
+    def remove_by_value(self, value):
+        current = self.head
+
+        if str(self.head.data) == str(value):
+            self.head = current.next
+            return
+        while current:
+            if str(current.next.data) == str(value):
+                current.next = current.next.next
+                break
+            current = current.next
+
 
 if __name__ == "__main__":
     l1 = Linkedlist()
@@ -115,4 +137,8 @@ if __name__ == "__main__":
     l2.InsertValues([5, 10, 15, 20])
     l2.printlist()
     l2.RemoveAt(2)
+    l2.printlist()
+    l2.insert_after_value(20, 21)
+    l2.printlist()
+    l2.remove_by_value(5)
     l2.printlist()
