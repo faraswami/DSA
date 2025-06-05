@@ -82,6 +82,23 @@ class Linkedlist:
         for item in data:
             self.InsertAtEnd(item)
 
+    def RemoveAt(self, index):
+        if index < 0 or index >= self.getlength():
+            raise Exception("Invalid Index")
+
+        if index == 0:
+            self.head = self.head.next
+            return
+
+        current = self.head
+        count = 0
+        while current:
+            if count == index - 1:
+                current.next = current.next.next
+                break
+            count += 1
+            current = current.next
+
 
 if __name__ == "__main__":
     l1 = Linkedlist()
@@ -96,4 +113,6 @@ if __name__ == "__main__":
 
     l2 = Linkedlist()
     l2.InsertValues([5, 10, 15, 20])
+    l2.printlist()
+    l2.RemoveAt(2)
     l2.printlist()
