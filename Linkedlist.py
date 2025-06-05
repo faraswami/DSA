@@ -99,6 +99,18 @@ class Linkedlist:
             count += 1
             current = current.next
 
+    def reverse_list(head):
+        curr = head
+        prev = None
+
+        while curr:
+            temp_node = curr.next
+            curr.next = prev
+            prev = curr
+            curr = temp_node
+
+        return prev
+
     def insert_after_value(self, value, data):
         current = self.head
         count = 0
