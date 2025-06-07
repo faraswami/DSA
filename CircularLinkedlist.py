@@ -1,3 +1,7 @@
+# N1 --> N2 --> Last -->N1
+# Always assign Last node
+
+
 class Node:
     def __init__(self, value):
         self.data = str(value)

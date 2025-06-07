@@ -1,3 +1,7 @@
+# Always have head and tail assigned
+# (null)-> Head --> n1 --> n2 --> Tail --> (null)
+
+
 class Node:
     def __init__(self, data, prev=None, next=None):
         self.data = str(data)
@@ -44,7 +48,7 @@ class Linkedlist:
         if not self.head:
             self.tail = self.head = Node(data)
         else:
-            node = Node(data, prev=self.tail)
+            node = Node(data, prev=self.tail)  # saved O(n) to O(1) due to tail node
             self.tail.next = node
             self.tail = node
 

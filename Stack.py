@@ -12,7 +12,7 @@ class stack:
         return self.stack.pop()
 
     def peep(self):
-        return self.stack[-1]
+        return "Empty List" if self.IsEmpty() else self.stack[-1]
 
     def size(self):
         return len(self.stack)
