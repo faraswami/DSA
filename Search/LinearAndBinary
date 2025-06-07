@@ -1,0 +1,38 @@
+def LinearSearch(list, data):
+    if not list:
+        print("Empty List")
+        return
+    count = 0
+    for item in list:
+        if item == data:
+            return count
+        else:
+            count += 1
+
+    return count
+
+
+def BinarySearch(list, data):
+    min = 0
+    max = len(list) - 1
+
+    while True:
+        mean = (min + max) // 2
+        if data == list[mean]:
+            return mean
+        if data < list[mean]:
+            max = mean - 1
+        if data > list[mean]:
+            min = mean + 1
+
+    return -1
+
+
+if __name__ == "__main__":
+    numbers_list = [12, 15, 17, 19, 21, 24, 45, 67]
+    number_to_find = 21
+    index = LinearSearch(numbers_list, number_to_find)
+    print("Linear search Index:", index)
+
+    index = BinarySearch(numbers_list, number_to_find)
+    print("Binary search Index:", index)
