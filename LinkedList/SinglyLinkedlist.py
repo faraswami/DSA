@@ -103,6 +103,9 @@ class Linkedlist:
             current = current.next
 
     def reverse_list(head):
+        # Time : O(n)
+        # space: O(1)
+        # For recursive space will be also O(n) hence not recommended
         curr = head
         prev = None
 

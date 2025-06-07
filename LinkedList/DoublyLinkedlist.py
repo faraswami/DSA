@@ -139,6 +139,26 @@ class Linkedlist:
 
         print("Not a valid index")  # Index beyond list length
 
+    def reverse_list(self):
+        if not self.head:
+            return
+
+        curr = self.head
+        prev = None
+
+        # Updating tail to the current head before reversing
+        self.tail = self.head
+
+        while curr:
+            temp_node = curr.next
+            curr.next = prev
+            curr.prev = temp_node
+            prev = curr
+            curr = temp_node
+
+        # Updating head to the new first node after reversal
+        self.head = prev
+
 
 if __name__ == "__main__":
     l1 = Linkedlist()
