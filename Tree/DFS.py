@@ -15,7 +15,6 @@ def printInorder(root):
             stack.append(current)
             current = current.left
 
-        # Current is None at this point
         current = stack.pop()
         print(current.data, end=" ")
 
@@ -39,4 +38,5 @@ root.left.right = Node(5)
 root.right.right = Node(6)
 
 printInorder(root)
+print("\nRecurssive:")
 printInorderRecur(root)
