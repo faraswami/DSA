@@ -38,159 +38,148 @@ DSA:
 
 
 ------------------------------------------GPT------------------------------------------------
-1. Python
+✅ 1. Advanced Python (Performance, Patterns)
 Learn:
 
-https://www.w3schools.com/python/
+Effective Python Notes (Cookbook): https://github.com/dabeaz/python-cookbook
 
-https://www.youtube.com/watch?v=LHBE6Q9XlzI (Python for Data Engineers - freeCodeCamp)
+Python Memory Management: https://realpython.com/python-memory-management/
 
-https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU (Corey Schafer)
+Design Patterns in Python: https://refactoring.guru/design-patterns/python
 
 Practice:
 
-https://leetcode.com/problemset/all/?difficulty=Easy&status=Todo&listId=wpwgkgt
+Advanced Python Challenges: https://exercism.io/tracks/python
 
-https://projecteuler.net/archives
+Medium/Hard Leetcode (Filter by Python): https://leetcode.com/problemset/all/
 
-https://www.interviewbit.com/python-interview-questions/
-
-✅ 2. PySpark
+✅ 2. PySpark & Distributed Systems
 Learn:
 
-https://spark.apache.org/docs/latest/api/python/index.html
+Databricks Academy – Free Courses: https://community.databricks.com
 
-https://www.youtube.com/watch?v=_C8kWso4ne4 (freeCodeCamp)
+Spark Optimization Guide: https://databricks.com/glossary/spark-optimization
 
-https://academy.databricks.com/path/pyspark
+Catalyst & Tungsten Engine Deep Dive: https://www.youtube.com/watch?v=gK96ne3DkXI
 
 Practice:
 
-https://www.kaggle.com/datasets
+Use Large Datasets: https://www.kaggle.com/
 
-Use Databricks Community Edition
+Build UDFs, Window Functions using local PySpark or Databricks CE: https://community.cloud.databricks.com/
 
-✅ 3. SQL
+✅ 3. Advanced SQL (CTEs, Indexing, Optimization)
 Learn:
 
-https://mode.com/sql-tutorial/
+SQL Index Optimization: https://use-the-index-luke.com/
 
-https://8weeksqlchallenge.com/
+SQL Window Functions: https://mode.com/sql-tutorial/sql-window-functions/
 
-https://leetcode.com/problemset/database/
+Azure SQL Performance Tuning: https://learn.microsoft.com/en-us/azure/azure-sql/performance-guidance
 
 Practice:
 
-http://sqlfiddle.com/
+OLAP Datasets (AdventureWorks): https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure
 
-https://www.db-fiddle.com/
+Data Warehouse Querying: https://www.db-fiddle.com/
 
-Use AdventureWorks/Chinook DB for SQL Server
+✅ 4. Azure Data Architecture (Enterprise Scale)
+Learn:
 
-✅ 4. Azure Data Engineering
-Azure ADLS:
+Microsoft Cloud Adoption Framework (Data Landing Zones): https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/data-management
 
-https://learn.microsoft.com/en-us/azure/storage/data-lake-storage/
+ADF Performance Optimization: https://learn.microsoft.com/en-us/azure/data-factory/data-flow-performance
 
-https://learn.microsoft.com/en-us/training/modules/introduction-data-lake/
+Synapse Best Practices: https://techcommunity.microsoft.com/t5/azure-synapse-analytics/bg-p/AzureSynapseAnalyticsBlog
 
-Azure Data Factory (ADF):
-
-https://learn.microsoft.com/en-us/training/paths/ingest-prepare-transform-data-azure-data-factory/
-
-https://microsoftlearning.github.io/mslearn-data-engineering/
-
-Azure Synapse:
-
-https://learn.microsoft.com/en-us/azure/synapse-analytics/
-
-https://learn.microsoft.com/en-us/training/paths/explore-synapse-analytics/
+Azure Functions (Advanced Concepts): https://learn.microsoft.com/en-us/azure/azure-functions/functions-best-practices
 
 Practice:
 
-https://learn.microsoft.com/en-us/training/ (Azure Sandbox Access)
+Free Azure Sandbox Labs: https://learn.microsoft.com/en-us/training/azure/
 
-https://azure.microsoft.com/en-in/free/
+Azure Free Tier: https://azure.microsoft.com/en-in/free/
 
-✅ 5. Azure Functions & Logic Apps
-https://learn.microsoft.com/en-us/azure/azure-functions/
-
-https://learn.microsoft.com/en-us/azure/logic-apps/
-
-https://learn.microsoft.com/en-us/samples/azure/azure-quickstart-templates/python-function-app-on-linux/
-
-✅ 6. GenAI, Azure AI & RAG
+✅ 5. Real-Time Streaming, Event Processing
 Learn:
 
-https://www.youtube.com/watch?v=-xI3uA4IGt4 (RAG Tutorial)
+Stream Processing Book (O’Reilly Free with Trial): https://www.oreilly.com/library/view/stream-processing-with/9781491954504/
 
-https://www.youtube.com/watch?v=0Jx44piD-7k (LLMOps)
+Structured Streaming in Spark: https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html
 
-https://learn.microsoft.com/en-us/training/paths/introduction-generative-ai/
-
-Azure AI Search:
-
-https://learn.microsoft.com/en-us/azure/search/
-
-https://learn.microsoft.com/en-us/azure/search/vector-search-overview
-
-Azure ML:
-
-https://learn.microsoft.com/en-us/azure/machine-learning/
-
-https://github.com/Azure/MachineLearningNotebooks
-
-✅ 7. DevOps & Workflow Orchestration
-Airflow:
-
-https://airflow.apache.org/docs/apache-airflow/stable/index.html
-
-https://learn.microsoft.com/en-us/azure/data-factory/concepts-pipelines-cloud-airflow
-
-Azure DevOps:
-
-https://learn.microsoft.com/en-us/training/modules/create-deploy-release-pipeline/
-
-https://learn.microsoft.com/en-us/azure/devops/pipelines/
-
-✅ 8. Power BI
-Learn:
-
-https://learn.microsoft.com/en-us/power-bi/fundamentals/
-
-https://www.youtube.com/c/GuyinaCube
+Azure Event Hubs & Stream Analytics: https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-about
 
 Practice:
 
-https://www.kaggle.com/datasets
+Simulate Streaming Pipelines using Spark + Kafka (local setup or on Databricks): https://docs.confluent.io/platform/current/tutorials/examples/ccloud/docs/kafka-python.html
 
-https://learn.microsoft.com/en-us/power-bi/sample-datasets
+✅ 6. Generative AI, RAG, LLMOps in Azure
+Learn:
 
-✅ 9. Azure Purview & Governance
-https://learn.microsoft.com/en-us/azure/purview/
+RAG from Scratch (Deep Dive): https://www.youtube.com/watch?v=-xI3uA4IGt4
 
-https://learn.microsoft.com/en-us/training/modules/describe-microsoft-purview/
+LLMOps Concepts (DeepLearning.AI): https://www.youtube.com/watch?v=0Jx44piD-7k
 
-✅ 10. System Design & Agile
+Microsoft Learn – GenAI Path: https://learn.microsoft.com/en-us/training/paths/introduction-generative-ai/
+
+Azure AI Search: https://learn.microsoft.com/en-us/azure/search/
+
+Vector Search & Indexing: https://learn.microsoft.com/en-us/azure/search/vector-search-overview
+
+Azure ML Studio – Production ML: https://learn.microsoft.com/en-us/azure/machine-learning/
+
+Practice:
+
+Use Azure OpenAI Playground + Azure AI Search: https://oai.azure.com/
+
+GitHub – Azure AI RAG Samples: https://github.com/Azure-Samples/azure-search-openai-demo
+
+✅ 7. DevOps, Monitoring, CI/CD
+Learn:
+
+Azure DevOps CI/CD Tutorial: https://learn.microsoft.com/en-us/training/modules/create-deploy-release-pipeline/
+
+Azure Pipelines Concepts: https://learn.microsoft.com/en-us/azure/devops/pipelines/
+
+Monitoring Best Practices in Azure: https://learn.microsoft.com/en-us/azure/azure-monitor/
+
+Practice:
+
+Use Azure DevOps Free Tier: https://azure.microsoft.com/en-us/services/devops/
+
+✅ 8. Data Governance & Visualization
+Azure Purview (Now Microsoft Purview):
+
+Introduction to Microsoft Purview: https://learn.microsoft.com/en-us/training/modules/describe-microsoft-purview/
+
+Cataloging, Lineage, Classification Docs: https://learn.microsoft.com/en-us/azure/purview/
+
+Power BI (for leadership storytelling):
+
+Microsoft Power BI Learning: https://learn.microsoft.com/en-us/power-bi/fundamentals/
+
+Power BI Advanced Modeling: https://docs.microsoft.com/en-us/power-bi/guided-learning/modelingadvanced
+
+✅ 9. System Design, Communication & Leadership
 System Design:
 
-https://github.com/donnemartin/system-design-primer
+The System Design Primer (GitHub): https://github.com/donnemartin/system-design-primer
 
-https://www.youtube.com/c/GauravSen
+Gaurav Sen (Advanced Interviews): https://www.youtube.com/c/GauravSen
 
-Agile:
+Communication & Agile:
 
-https://scrumguides.org/
+Scrum Guide: https://scrumguides.org/
 
-https://www.youtube.com/watch?v=Z9QbYZh1YXY (freeCodeCamp Agile)
+Agile & Team Collaboration (freeCodeCamp): https://www.youtube.com/watch?v=Z9QbYZh1YXY
 
-🎯 Final Preparation
+🎯 Final Touch
 Mock Interviews:
 
-https://www.pramp.com/
+Pramp: https://www.pramp.com/
 
-https://interviewing.io/
+Interviewing.io: https://interviewing.io/
 
-Company Reviews:
+Glassdoor (Company-Specific Interview Reviews):
 
 https://www.glassdoor.co.in/Interview/
