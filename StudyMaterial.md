@@ -183,3 +183,111 @@ Interviewing.io: https://interviewing.io/
 Glassdoor (Company-Specific Interview Reviews):
 
 https://www.glassdoor.co.in/Interview/
+
+
+
+---------------------------------------------weekwise plan------------------------------------------
+ Week 1: Advanced Python & Design Patterns
+Effective Python Tips – RealPython
+https://www.youtube.com/watch?v=OSFrDwwSuSo
+
+Design Patterns in Python (All 23 Patterns)
+https://www.youtube.com/watch?v=mWaZD8uztT8
+
+SOLID Principles in Python
+https://www.youtube.com/watch?v=6i1smp_1Bxs
+
+Python Memory Management & Profiling
+https://www.youtube.com/watch?v=0pP4EwWJgIU
+
+🔹 Week 2: PySpark & Spark Performance Tuning
+PySpark Full Course – freeCodeCamp
+https://www.youtube.com/watch?v=_C8kWso4ne4
+
+Understanding Databricks & Apache Spark Optimization
+https://www.youtube.com/watch?v=hLOpfxpgc70
+
+PySpark Optimization Tips (2024)
+https://www.youtube.com/watch?v=CY_WaxCxJco
+
+How to Optimize Databricks Clusters & Save $$$
+https://www.youtube.com/watch?v=KecDecRvWec
+
+🔹 Week 3: Azure Data Engineering (ADF, Synapse, ADLS, Functions)
+ADF Advanced Data Flows – BI Consulting Pro
+https://www.youtube.com/watch?v=x7eTUJNEEYY
+
+Azure Data Engineering Projects – CloudWithRanjit
+https://www.youtube.com/playlist?list=PLGjZwEtPN7j-Q59JYso3L4Z3u0b6ozxZL
+
+Azure Functions Deep Dive – Azure Friday
+https://www.youtube.com/playlist?list=PLLasX02E8BPBtz1TLaXKnvdfu8YlW8eD_
+
+ADF Pipeline Monitoring, Debugging & CI/CD
+https://www.youtube.com/watch?v=2KP3kmH2u6Y
+
+🔹 Week 4: Generative AI / RAG / Azure AI
+RAG from Scratch – freeCodeCamp
+https://www.youtube.com/watch?v=-xI3uA4IGt4
+
+Implement RAG with Azure AI Search (Microsoft)
+https://www.youtube.com/watch?v=cHgZU5dqjyc
+
+Production-Ready GenAI Apps – Azure AI Search + OpenAI
+https://www.youtube.com/watch?v=_2tZaDs-w5s
+
+Prompt Flow & Azure AI Studio (Full Demo)
+https://www.youtube.com/watch?v=hSF_E_FxGvc
+
+LLMOps End-to-End – DeepLearning.AI
+https://www.youtube.com/watch?v=0Jx44piD-7k
+
+🔹 Week 5: DevOps, Monitoring, CI/CD
+Azure DevOps Beginner to Advanced – TechScalable
+https://www.youtube.com/playlist?list=PLsjUcU8CQXGn5fdd8QO5OkFfEo1u6zZYi
+
+CI/CD in Azure Pipelines – Microsoft
+https://www.youtube.com/watch?v=2KP3kmH2u6Y
+
+Monitoring in Azure – Azure Monitor Deep Dive
+https://www.youtube.com/watch?v=KAPJpTzDEtk
+
+🔹 Week 6: System Design & Architecture
+System Design Primer – Gaurav Sen
+https://www.youtube.com/watch?v=SqcXvc3ZmRU
+
+System Design Mock Interview – Gaurav Sen
+https://www.youtube.com/watch?v=0EgpeYb3VnI
+
+Tech Dummies – Real System Design Projects
+https://www.youtube.com/c/TechDummiesNarendraL/playlists
+
+ByteByteGo – Scalable System Architecture Explained
+https://www.youtube.com/c/ByteByteGo
+
+✅ Bonus: Data Governance & Visualization
+Power BI Advanced Topics – Guy in a Cube
+https://www.youtube.com/c/GuyinaCube/playlists
+
+Microsoft Purview (formerly Azure Purview) Overview
+https://www.youtube.com/watch?v=p4eGmnFOTZ8
+
+🧪 Practice + Mock Interview Platforms
+Mock Interviews – Pramp
+https://www.pramp.com/
+
+Anonymous Mock Tech Interviews – Interviewing.io
+https://www.interviewing.io/
+
+Company Interview Reviews – Glassdoor
+https://www.glassdoor.co.in/Interview/
+
+⚙ How to Use This Plan
+Pick a topic per week, watch 2–4 videos, and apply learnings via Azure Free Tier or Databricks CE.
+
+Use Azure Sandbox for hands-on practice.
+
+For GenAI projects, refer to:
+https://github.com/Azure-Samples/azure-search-openai-demo
+
+Prepare for leadership/system design interviews using ByteByteGo and Gaurav Sen’s real-world examples.
