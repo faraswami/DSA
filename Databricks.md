@@ -1,3 +1,5 @@
+Databricks playlist: https://www.youtube.com/watch?v=XOSuR8g2SfQ&list=PL2IsFZBGM_IGiAvVZWAEKX8gg1ItnxEEb
+
 1. How does Delta Lake ensure ACID transactions on cloud object stores?
 
 Answer:
