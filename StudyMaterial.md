@@ -14,6 +14,9 @@ https://www.youtube.com/watch?v=dqLHTK7RuIo&t=901s
 circular:
 https://www.geeksforgeeks.org/circular-linked-list/
 
+spark architecture:
+https://www.youtube.com/watch?v=iXVIPQEGZ9Y
+
 
 Data Engineering Basics:
 1. Basics and Structure: [Data Engineering 101 - GeeksforGeeks](https://www.geeksforgeeks.org/data-engineering-101/)
